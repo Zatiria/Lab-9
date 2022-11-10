@@ -1,0 +1,92 @@
+body
+{ background-color: #CCFFFF; }
+#background
+{
+	width: 500px;  
+	height: 650px;
+
+	background-color: #9999FF;
+	border-radius: 4em;
+	border: 5px solid #6666FF;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.div
+{
+	width: 200px;  
+	height: 50px;
+	background-color: #8282fa;
+	border-radius: 20px;
+	border-color: #6666FF;
+	font-size: 150%;
+	color: #0000bb;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	vertical-align:top;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button
+{
+	width: 300px;  
+	height: 60px;
+	left: 50%;
+	top: 7%;
+}
+#player
+{
+	left: 25%;
+	top: 20%;
+}
+#computer
+{
+	left: 75%;
+	top: 20%;
+}
+#score1
+{
+	left: 25%;
+	top: 34%;
+}
+#score2
+{
+	left: 75%;
+	top: 34%;
+}
+#card1
+{
+	height: 250px;
+	left: 25%;
+	top: 63%;
+}
+#card2
+{
+	height: 250px;
+	left: 75%;
+	top: 63%;
+}
+#img1
+{
+    height: 200px;
+    width: 200px;  
+}
+#img2
+{
+    height: 200px;
+    width: 200px;  
+}
+#answer
+{
+	width: 300px;  
+	height: 60px;
+	left: 50%;
+	top: 93%;
+}
